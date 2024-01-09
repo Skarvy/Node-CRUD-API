@@ -4,8 +4,7 @@ This repository contains a Node.js API for managing real estate products. It use
 
 ## Installation
 
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Skarvy/Node-CRUD-API
 Install dependencies:
@@ -68,11 +67,3 @@ GET /products/:id: Obtiene un producto específico por ID.
 PUT /products/:id: Actualiza un producto por ID.
 DELETE /products/:id: Elimina un producto por ID.
 POST /products: Crea un nuevo producto.
-Contribuciones
-Siéntete libre de contribuir a este proyecto abriendo problemas o enviando solicitudes de extracción.
-
-
-
-
-
-
