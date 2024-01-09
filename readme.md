@@ -1,69 +1,38 @@
-# Node-CRUD-API
+# Node API for Real Estate Management
 
-This repository contains a Node.js API for managing real estate products. It uses Express for handling HTTP requests and Mongoose for interacting with MongoDB.
+This Node.js API is designed for managing real estate products. It uses Express to handle HTTP requests and Mongoose to interact with MongoDB.
 
-## Installation
+## Getting Started
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Skarvy/Node-CRUD-API
-Install dependencies:
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Skarvy/Node-CRUD-API
+    ```
 
-bash
-Copy code
-cd Node-CRUD-API
-npm install
-Set up MongoDB:
+2. **Install Dependencies:**
+    ```bash
+    cd your-repo
+    npm install
+    ```
 
-Create a MongoDB Atlas account.
-Create a cluster and obtain the connection string.
-Replace the connection string in app.js with your own.
-Run the application:
+3. **Set Up MongoDB:**
+    - Create a MongoDB Atlas account.
+    - Create a cluster and obtain the connection string.
+    - Replace the connection string in `app.js` with your own.
 
-bash
-Copy code
-npm start
-Usage
-Access the API at http://localhost:3000.
-Endpoints:
-GET /products: Get all products.
-GET /products/:id: Get a specific product by ID.
-PUT /products/:id: Update a product by ID.
-DELETE /products/:id: Delete a product by ID.
-POST /products: Create a new product.
-Contributing
-Feel free to contribute to this project by opening issues or submitting pull requests.
+4. **Run the Application:**
+    ```bash
+    npm start
+    ```
 
-Node-CRUD-API (Español)
-Este repositorio contiene una API de Node.js para gestionar productos inmobiliarios. Utiliza Express para manejar solicitudes HTTP y Mongoose para interactuar con MongoDB.
+## Usage
 
-Instalación
-Clona el repositorio:
+Access the API at [http://localhost:3000](http://localhost:3000).
 
-bash
-Copy code
-git clone https://github.com/Skarvy/Node-CRUD-API
-Instala las dependencias:
+### Endpoints:
 
-bash
-Copy code
-cd Node-CRUD-API
-npm install
-Configura MongoDB:
-
-Crea una cuenta en MongoDB Atlas.
-Crea un clúster y obtén la cadena de conexión.
-Reemplaza la cadena de conexión en app.js con la tuya.
-Ejecuta la aplicación:
-
-bash
-Copy code
-npm start
-Uso
-Accede a la API en http://localhost:3000.
-Endpoints:
-GET /products: Obtiene todos los productos.
-GET /products/:id: Obtiene un producto específico por ID.
-PUT /products/:id: Actualiza un producto por ID.
-DELETE /products/:id: Elimina un producto por ID.
-POST /products: Crea un nuevo producto.
+- **GET /products:** Get all products.
+- **GET /products/:id:** Get a specific product by ID.
+- **PUT /products/:id:** Update a product by ID.
+- **DELETE /products/:id:** Delete a product by ID.
+- **POST /products:** Create a new product.
