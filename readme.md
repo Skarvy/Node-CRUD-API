@@ -1,4 +1,4 @@
-# Node API - Real Estate
+# Node-CRUD-API
 
 This repository contains a Node.js API for managing real estate products. It uses Express for handling HTTP requests and Mongoose for interacting with MongoDB.
 
@@ -12,7 +12,7 @@ Install dependencies:
 
 bash
 Copy code
-cd node-real-estate-api
+cd Node-CRUD-API
 npm install
 Set up MongoDB:
 
@@ -35,25 +35,20 @@ POST /products: Create a new product.
 Contributing
 Feel free to contribute to this project by opening issues or submitting pull requests.
 
+Node-CRUD-API (Español)
+Este repositorio contiene una API de Node.js para gestionar productos inmobiliarios. Utiliza Express para manejar solicitudes HTTP y Mongoose para interactuar con MongoDB.
 
+Instalación
+Clona el repositorio:
 
-**README.md Template (Español):**
-```markdown
-# Node API - Bienes Raíces
-
-Este repositorio contiene una API de Node.js para gestionar productos inmobiliarios. Utiliza Express para manejar las solicitudes HTTP y Mongoose para interactuar con MongoDB.
-
-## Instalación
-
-1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/Skarvy/Node-CRUD-API
+bash
+Copy code
+git clone https://github.com/Skarvy/Node-CRUD-API
 Instala las dependencias:
 
 bash
 Copy code
-cd node-real-estate-api
+cd Node-CRUD-API
 npm install
 Configura MongoDB:
 
@@ -75,6 +70,8 @@ DELETE /products/:id: Elimina un producto por ID.
 POST /products: Crea un nuevo producto.
 Contribuciones
 Siéntete libre de contribuir a este proyecto abriendo problemas o enviando solicitudes de extracción.
+
+
 
 
 
