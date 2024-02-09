@@ -73,7 +73,7 @@ app.post('/products', async (req, res) => {
 });
 
 // Connecting to the MongoDB database
-mongoose.connect('mongodb+srv://admin:admin@inmobiliariaapi.yiry0vx.mongodb.net/Node-API?retryWrites=true&w=majority')
+mongoose.connect("Mongoose Info")
     .then(() => {
         // Start the server on port 3000
         app.listen(3000, () => {
